@@ -33,3 +33,7 @@ Create a `Directory.Build.props` file in the root of your solution:
 - `TreatWarningsAsErrors` - Any warnings will be promoted to errors for `Release` builds
 - `CodeAnalysisTreatWarningsAsErrors` - Code analysis warnings (CAXXXX) will be treated as errors
 - `EnforceCodeStyleInBuild` - Code analysis rules (IDEXXXX) will show as warnings
+
+## What is a `Directory.Build.props`
+
+A Directory.Build.props file is an MSBuild file used in .NET projects to define common properties and configurations that apply to multiple projects within a directory tree. This file helps centralize the configuration and reduce redundancy by allowing you to specify settings that will be inherited by all projects under the directory where the file is located.
